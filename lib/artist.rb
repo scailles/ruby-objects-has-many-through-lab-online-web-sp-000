@@ -27,7 +27,7 @@ def new_song(song, genre)
 end
 
 def genres 
-  songs.
+  songs.map
 
 
 end
