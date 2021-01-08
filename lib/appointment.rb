@@ -21,3 +21,6 @@ end
 def doctor
   @doctor
 end
+
+
+end
