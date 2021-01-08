@@ -6,7 +6,7 @@ attr_accessor :name, :song, :genre
   
   
 def initialize(name)
-  @name
+  @name= name
   @songs=[]
   @genres=[]
   @@all << self
