@@ -22,9 +22,7 @@ end
 
 
 def appointments
-  Appointment.all.select do |appointments|
-  appointments.doctor == self
-end
+  Appointment.all.select {|appointment| appointment.doctor == self}
 end
 
 
