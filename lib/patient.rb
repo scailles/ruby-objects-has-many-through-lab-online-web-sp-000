@@ -8,4 +8,5 @@ def initialize(name)
 end
 
 
-def new_appointment()
+def new_appointment(date, doctor)
+  Appointment.new()
