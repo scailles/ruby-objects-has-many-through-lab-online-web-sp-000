@@ -5,7 +5,7 @@ attr_accessor :name, :appointment, :patient
 @@all= []
 
 
-def initialize
+def initialize(name)
   @name= name
   @@all << self
 end
