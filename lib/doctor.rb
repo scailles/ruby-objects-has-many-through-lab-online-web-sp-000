@@ -29,7 +29,8 @@ end
 
 
 def patients
-  appointments.map{|patients| patients
+  appointments.map{|appts| appts.patient}
+end
   
 
 
