@@ -18,7 +18,7 @@ def self.all
 end
 
 def artist
-  song.artist
+  @artist
 end
 
 
