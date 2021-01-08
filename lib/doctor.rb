@@ -29,7 +29,7 @@ end
 
 
 def patients
-  appointments.patient
+  appointments.map{|patients|
   
 
 
