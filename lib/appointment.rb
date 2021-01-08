@@ -7,7 +7,7 @@ attr_accessor :date, :patient, :doctor
 
 def initialize(patient, date, doctor)
   @patient = patient
-  @
+  @date= date
   @@all << self
 end
 
