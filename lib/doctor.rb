@@ -28,5 +28,10 @@ end
 end
 
 
+def patients
+  appointments.patient
+  
+
+
 
 end
