@@ -18,6 +18,12 @@ def self.all
 end
 
 
+def appointments
+  Appointments.all.select do |appointments|
+  appointments.doctor == self
+end
+
+
 
 
 end
