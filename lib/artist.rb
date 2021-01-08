@@ -17,6 +17,10 @@ def self.all
 end
 
 
+def songs
+  @songs
+end
+
 
 
 end
