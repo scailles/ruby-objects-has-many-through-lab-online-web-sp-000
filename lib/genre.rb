@@ -3,7 +3,7 @@ class Genre
 attr_accessor :name, :song, :artist
 
 
-def initialize
+def initialize(name)
   @name = name
 end
 
