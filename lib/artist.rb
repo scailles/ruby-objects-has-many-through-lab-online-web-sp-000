@@ -7,8 +7,6 @@ attr_accessor :name, :song, :genre
   
 def initialize(name)
   @name= name
-  @songs=[]
-  @genres=[]
   @@all << self
 end
 
@@ -18,7 +16,8 @@ end
 
 
 def songs
-  @songs
+  Songs.all.select do |song|
+    song.artist == self
 end
 
 
