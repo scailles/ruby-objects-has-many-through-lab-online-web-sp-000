@@ -10,3 +10,7 @@ def initialize(name, artist, genre)
   @artist
   @genre
 end
+
+
+
+end
